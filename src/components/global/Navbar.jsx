@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -7,8 +8,8 @@ const Navbar = () => {
             <h1 className='h-full'>Logo</h1>
             <div className="flex gap-16 h-full">
                 <ul className='text-xl flex gap-4 h-full items-center justify-center'>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link></li>
                     <li>Service</li>
                     <li>Contact</li>
                 </ul>
