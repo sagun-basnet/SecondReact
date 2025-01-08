@@ -3,7 +3,22 @@ import './style.css'
 
 const Navbar = () => {
     return (
-        <div className='border-2 border-red-500 h-[5rem]'>Navbar</div>
+        <nav className='border-2 border-red-500 h-[5rem] flex justify-between items-center px-4'>
+            <h1 className='h-full'>Logo</h1>
+            <div className="flex gap-16 h-full">
+                <ul className='text-xl flex gap-4 h-full items-center justify-center'>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+                <div className="flex items-center gap-2">
+                    <button className="bg-red-500 text-white py-2 px-4 rounded-md">Login</button>
+                    <button className="bg-blue-500 text-white py-2 px-4 rounded-md">Signup</button>
+                </div>
+            </div>
+
+        </nav>
     )
 }
 

@@ -4,6 +4,7 @@ import image1 from "../images/background.jpg"
 import image2 from "../images/background.jpg"
 import image3 from "../images/background.jpg"
 import image4 from "../images/background.jpg"
+import { MdOutlineCancel } from "react-icons/md";
 
 const Product = () => {
     // const data2 = [1,2,46,6,78,8]
@@ -42,6 +43,7 @@ const Product = () => {
 
     return (
         <div className='w-full p-8'>
+            <MdOutlineCancel/>
             <div className="grid grid-cols-3 gap-2">
                 {
                     data.map((item) => {
