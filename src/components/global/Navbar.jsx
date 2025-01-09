@@ -10,11 +10,13 @@ const Navbar = () => {
                 <ul className='text-xl flex gap-4 h-full items-center justify-center'>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li>Service</li>
-                    <li>Contact</li>
+                    <li><Link to='/service'>Service</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                 </ul>
                 <div className="flex items-center gap-2">
-                    <button className="bg-red-500 text-white py-2 px-4 rounded-md">Login</button>
+                    <button className="bg-red-500 text-white py-2 px-4 rounded-md">
+                        <Link to='/Login'>Login</Link>
+                    </button>
                     <button className="bg-blue-500 text-white py-2 px-4 rounded-md">Signup</button>
                 </div>
             </div>
