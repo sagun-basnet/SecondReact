@@ -19,12 +19,11 @@ const AddList = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // console.log(data);
-        setData((prev) => (prev.push(add))
-        );
+        setData((prev) => [...prev, add])
         setAdd(initial)
 
-        console.log(data);
     }
+    console.log(data);
 
     const handleChange = (e) => {
         setAdd(prev => ({ ...prev, [e.target.name]: e.target.value }));

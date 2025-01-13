@@ -7,6 +7,7 @@ import SignPage from "./pages/SignPage"
 import LoginPage from "./pages/LoginPage"
 import PageNotFound from "./pages/PageNotFound"
 import Navbar from "./components/global/Navbar"
+import FetchApi from "./components/global/FetchApi"
 const App = () => {
 
   const Layout = () => {
@@ -49,6 +50,10 @@ const App = () => {
       {
         path: '/signup',
         element: <SignPage />,
+      },
+      {
+        path: '/api',
+        element: <FetchApi />,
       },
       {
         path: '*',
