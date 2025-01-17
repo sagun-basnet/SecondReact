@@ -2,10 +2,6 @@ import { useState } from "react";
 
 const AddList = () => {
 
-    // const arr = [1, 2, 3, 4, 5]
-    // arr.push(6);
-
-
     const [data, setData] = useState([]);
     const initial = {
         title: "",
