@@ -1,8 +1,9 @@
 import React from 'react'
+import FetchApi from '../components/global/FetchApi'
 
 const ContactPage = () => {
     return (
-        <div>ContactPage</div>
+        <div><FetchApi /></div>
     )
 }
 

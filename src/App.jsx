@@ -8,6 +8,7 @@ import LoginPage from "./pages/LoginPage"
 import PageNotFound from "./pages/PageNotFound"
 import Navbar from "./components/global/Navbar"
 import FetchApi from "./components/global/FetchApi"
+import SingleProduct from "./pages/SingleProduct"
 const App = () => {
 
   const Layout = () => {
@@ -54,6 +55,10 @@ const App = () => {
       {
         path: '/api',
         element: <FetchApi />,
+      },
+      {
+        path: '/products/:id',
+        element: <SingleProduct />,
       },
       {
         path: '*',

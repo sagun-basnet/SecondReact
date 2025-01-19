@@ -1,8 +1,11 @@
 import React from 'react'
+import Parent from '../components/parentChild/Parent'
 
 const AboutPage = () => {
     return (
-        <div>AboutPage</div>
+        <div>
+            <Parent />
+        </div>
     )
 }
 

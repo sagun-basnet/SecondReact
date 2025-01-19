@@ -36,7 +36,7 @@ const Product = () => {
             name: "Product 4",
             price: 400,
             image: image4,
-            description: "This is product 4. daf asdfasdf asdfasdf lorem fasdfasdfa asdfasdf asdfadsf joijeijad kjalkdsjfoiejo oijlkjalkdsf jklasjdfklas kljioajoiefj joiajoifjsjdf ljoijoiajsf Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis perspiciatis necessitatibus ad voluptate incidunt provident cum. Officiis minus facere fugiat unde rerum, dolore vero. Nemo perspiciatis quibusdam at! Facilis?",
+            description: "This is product 4. daf asdfasdf asdfasdf lorem fasdfasdfa asdfasdf asdfadsf joijeijad kjalkdsjfoiejo oijlkjalkdsf jklasjdfklas kljioajoiefj joiajoifjsjdf ljoijoiajsf Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis perspiciatis necessitatibus ad voluptate incidunt provident cum. Officiis minus facere fugiat unde rerum, dolore vero. Nemo perspiciatis quibusdam at! Facilis?sfdg sdfgsdf",
         },
     ]
 
